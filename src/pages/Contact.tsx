@@ -6,10 +6,30 @@ import SectionHeading from '../components/SectionHeading';
 import Reveal from '../components/Reveal';
 
 const channels = [
-  { icon: Mail, labelKey: 'email', value: 'hello@mrdyan.studio', href: 'dhiabenamri@aol.com' },
-  { icon: Phone, labelKey: 'phone', value: '+1 (555) 012-3456', href: 'tel:+213 770 640 330' },
-  { icon: MessageCircle, labelKey: 'whatsapp', value: '+1 (555) 012-3456', href: 'https://wa.me/776505079' },
-  { icon: MapPin, labelKey: 'location', value: 'Everywhere, Algeria', href: '#' },
+{
+  icon: Mail,
+  labelKey: 'email',
+  value: 'dhiabenamri@aol.com',
+  href: 'mailto:dhiabenamri@aol.com',
+},
+{
+  icon: Phone,
+  labelKey: 'phone',
+  value: '+213 770 640 330',
+  href: 'tel:+213770640330',
+},
+{
+  icon: MessageCircle,
+  labelKey: 'whatsapp',
+  value: '+213 776 505 079',
+  href: 'https://wa.me/213776505079',
+},
+{
+  icon: MapPin,
+  labelKey: 'location',
+  value: 'ُEverywhere, Algeria',
+  href: '#',
+},
 ];
 
 const projectTypes = ['branding', 'web', 'uiux', 'marketing', 'other'];
