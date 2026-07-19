@@ -61,7 +61,7 @@ export default function Hero() {
             <div className="h-28 w-28 overflow-hidden rounded-full bg-gradient-to-br from-electric-500 to-electric-800 sm:h-32 sm:w-32">
               <img
                 src="/images/image.png"
-                alt="MrDYAN"
+                alt="Anouar Dhia E. Benlamri"
                 loading="eager"
                 className="h-full w-full object-cover"
               />
