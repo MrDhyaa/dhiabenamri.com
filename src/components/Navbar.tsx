@@ -44,7 +44,7 @@ export default function Navbar() {
             : 'bg-transparent'
         }`}
       >
-        <nav className="container-wide section-pad flex h-16 items-center justify-between gap-4">
+        <nav className="container-wide section-pad flex h-20 items-center justify-between gap-4">
          <Link to="/" className="group flex flex-col leading-none">
   <span className="font-display text-2xl font-black tracking-[0.14em] transition-all duration-300 group-hover:text-electric-400">
     <span className="text-electric-400">D</span>
