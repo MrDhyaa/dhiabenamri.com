@@ -47,8 +47,8 @@ export default function Navbar() {
         <nav className="container-wide section-pad flex h-16 items-center justify-between gap-4">
          <Link to="/" className="group flex items-center">
   <span className="font-display text-2xl font-black tracking-[0.12em] transition-all duration-300 group-hover:opacity-80">
-    <span className="text-electric-400">D</span>
-    <span className="text-white">YAN</span>
+    <span className="text-electric-400">DY</span>
+    <span className="text-white">AN</span>
   </span>
 </Link>
 
