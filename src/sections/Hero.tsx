@@ -84,8 +84,7 @@ export default function Hero() {
   initial={{ opacity: 0, y: 16 }}
   animate={{ opacity: 1, y: 0 }}
   transition={{ delay: 0.15, duration: 0.6 }}
-  className="mt-2 whitespace-nowrap font-display text-[clamp(2.5rem,9vw,5.5rem)] font-extrabold leading-none tracking-tight"
->
+className="text-zinc-100">
   <span className="text-white">Mr. DYAN</span>
 </motion.h1>
 
