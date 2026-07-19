@@ -45,14 +45,10 @@ export default function Navbar() {
         }`}
       >
         <nav className="container-wide section-pad flex h-16 items-center justify-between gap-4">
-         <Link to="/" className="group flex flex-col leading-none">
-  <span className="font-display text-2xl font-black tracking-[0.14em] transition-all duration-300 group-hover:text-electric-400">
+         <Link to="/" className="group flex items-center">
+  <span className="font-display text-2xl font-black tracking-[0.12em] transition-all duration-300 group-hover:opacity-80">
     <span className="text-electric-400">D</span>
     <span className="text-white">YAN</span>
-  </span>
-
-  <span className="mt-1 text-[10px] uppercase tracking-[0.45em] text-ink-400">
-    A. Dia'a E.
   </span>
 </Link>
 
