@@ -76,7 +76,7 @@ export default function Hero() {
           transition={{ delay: 0.15, duration: 0.6 }}
           className="mt-6 whitespace-nowrap font-display text-[clamp(2.5rem,9vw,5.5rem)] font-extrabold leading-none tracking-tight"
         >
-          <span className="gradient-text">MrDYAN</span>
+          <span className="gradient-text">Anouar Dhia E. Benlamri</span>
         </motion.h1>
 
         {/* roles — icon-prefixed, translated, separators kept */}
