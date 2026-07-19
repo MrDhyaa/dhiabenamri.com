@@ -8,10 +8,11 @@
     "services": "Services",
     "contact": "Contact",
     "faq": "FAQ",
-    "hireMe": "Hire Me",
-    },
-  
-     "hero": {
+11 |      "hireMe": "Hire Me",
+12 |      },
+   |     ^
+13 |    
+14 |       "hero": {
 
     "name": "Anouar Dia'a Eddine",
 
