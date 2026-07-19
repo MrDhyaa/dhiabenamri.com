@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -139,8 +140,8 @@ html.lang-ar [class*='items-center'] p {
 }
 
 /* Keep flex rows visually identical — do NOT reverse icon order */
-html.lang-ar .lucide {
-  transform: none;
+html.lang-ar body {
+  font-family: 'IBM Plex Sans Arabic', 'Inter', sans-serif;
 }
 
 /* Scroll indicator: elegant floating mouse with soft glow */
