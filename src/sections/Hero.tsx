@@ -61,7 +61,7 @@ export default function Hero() {
             <div className="h-28 w-28 overflow-hidden rounded-full bg-gradient-to-br from-electric-500 to-electric-800 sm:h-32 sm:w-32">
               <img
                 src="/images/image.png"
-                alt="A. Dhia E Benlamri"
+                alt="Dia'a E. Benlamri"
                 loading="eager"
                 className="h-full w-full object-cover"
               />
@@ -76,7 +76,7 @@ export default function Hero() {
           transition={{ delay: 0.15, duration: 0.6 }}
           className="mt-6 whitespace-nowrap font-display text-[clamp(2.5rem,9vw,5.5rem)] font-extrabold leading-none tracking-tight"
         >
-          <span className="gradient-text">A. Dhia E Benlamri</span>
+          <span className="gradient-text">Dia'a E. Benlamri</span>
         </motion.h1>
 
         {/* roles — icon-prefixed, translated, separators kept */}
