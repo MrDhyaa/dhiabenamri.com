@@ -125,7 +125,11 @@ export default function Hero() {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label={s.label}
-                whileHover={{ scale: 1.12 }}
+whileHover={{
+    scale: 1.15,
+    rotate: 8,
+    y: -4,
+}}
                 whileTap={{ scale: 0.95 }}
                 className="group flex h-11 w-11 items-center justify-center rounded-full border border-white/10 bg-white/[0.04] text-ink-200 backdrop-blur-md transition-all hover:border-electric-500/40 hover:bg-electric-500/10 hover:text-electric-300 hover:shadow-glow-sm"
               >
