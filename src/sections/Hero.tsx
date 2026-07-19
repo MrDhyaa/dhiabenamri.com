@@ -18,9 +18,9 @@ import MagneticButton from '../components/MagneticButton';
 const socials = [
   { Icon: Github, href: 'https://github.com', label: 'GitHub' },
   { Icon: Linkedin, href: 'https://linkedin.com', label: 'LinkedIn' },
-  { Icon: Twitter, href: 'https://x.com', label: 'X / Twitter' },
-  { Icon: Instagram, href: 'https://instagram.com', label: 'Instagram' },
-  { Icon: Facebook, href: 'https://facebook.com', label: 'Facebook' },
+  { Icon: Twitter, href: 'https://x.com/MrDhyaa', label: 'X / Twitter' },
+  { Icon: Instagram, href: 'https://instagram.com/benlamri_91', label: 'Instagram' },
+  { Icon: Facebook, href: 'https://facebook.com/MrDhyaa', label: 'Facebook' },
 ];
 
 const professions = [
