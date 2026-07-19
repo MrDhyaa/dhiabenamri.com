@@ -69,15 +69,27 @@ export default function Hero() {
           </motion.div>
         </motion.div>
 
-        {/* name — one line on mobile */}
-        <motion.h1
-          initial={{ opacity: 0, y: 16 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.15, duration: 0.6 }}
-          className="mt-6 whitespace-nowrap font-display text-[clamp(2.5rem,9vw,5.5rem)] font-extrabold leading-none tracking-tight"
-        >
-          <span className="gradient-text">Mr. DIA'A E.</span>
-        </motion.h1>
+       {/* Full Name */}
+<motion.p
+  initial={{ opacity: 0, y: 10 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ delay: 0.1, duration: 0.6 }}
+  className="mt-4 text-sm font-medium tracking-[0.18em] text-ink-400"
+>
+  Anouar Dia'a E. Benlamri
+</motion.p>
+
+{/* Brand Name */}
+<motion.h1
+  initial={{ opacity: 0, y: 16 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ delay: 0.15, duration: 0.6 }}
+  className="mt-2 whitespace-nowrap font-display text-[clamp(2.5rem,9vw,5.5rem)] font-extrabold leading-none tracking-tight"
+>
+  <span className="gradient-text">
+    Mr<span className="text-electric-400">DY</span>AN
+  </span>
+</motion.h1>
 
         {/* roles — icon-prefixed, translated, separators kept */}
         <motion.div
