@@ -52,7 +52,7 @@ export default function Navbar() {
   </span>
 
   <span className="mt-1 text-[10px] uppercase tracking-[0.45em] text-ink-400">
-    DIGITAL STUDIO
+    A. Dia'a E.
   </span>
 </Link>
 
