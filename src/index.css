@@ -125,8 +125,8 @@ html.lang-ar textarea,
 html.lang-ar input,
 html.lang-ar blockquote {
   direction: rtl;
-  unicode-bidi: plaintext;
-  text-align: right;
+  direction: rtl;
+unicode-bidi: isolate;
 }
 
 /* Centered headings stay centered; only direction flips */
