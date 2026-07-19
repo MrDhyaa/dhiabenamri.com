@@ -45,14 +45,16 @@ export default function Navbar() {
         }`}
       >
         <nav className="container-wide section-pad flex h-16 items-center justify-between gap-4">
-          <Link to="/" className="group flex items-center gap-2.5">
-            <span className="relative flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-br from-electric-500 to-electric-700 shadow-glow-sm">
-              <span className="h-3 w-3 rounded-full bg-white" />
-            </span>
-            <span className="font-display text-lg font-bold tracking-tight whitespace-nowrap">
-              Mr<span className="text-electric-400">DYAN</span>
-            </span>
-          </Link>
+         <Link to="/" className="group flex flex-col leading-none">
+  <span className="font-display text-2xl font-black tracking-[0.14em] transition-all duration-300 group-hover:text-electric-400">
+    <span className="text-electric-400">D</span>
+    <span className="text-white">YAN</span>
+  </span>
+
+  <span className="mt-1 text-[10px] uppercase tracking-[0.45em] text-ink-400">
+    DIGITAL STUDIO
+  </span>
+</Link>
 
           <ul className="hidden items-center gap-1 lg:flex">
             {links.map((l) => (
