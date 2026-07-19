@@ -76,7 +76,7 @@ export default function Hero() {
   transition={{ delay: 0.1, duration: 0.6 }}
   className="mt-4 text-sm font-medium tracking-[0.18em] text-ink-400"
 >
-  Anouar Dia'a Eddine
+  {t('hero.fullName')}
 </motion.p>
 
 {/* Brand Name */}
