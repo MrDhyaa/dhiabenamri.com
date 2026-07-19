@@ -5,7 +5,7 @@ import Reveal from '../components/Reveal';
 
 const socials = [
   { icon: Twitter, href: 'https://x.com/MrDhyaa', label: 'X / Twitter' },
-  { icon: Faceook, href: 'https://facebook.com/BenamriAgency', label: 'Facebook' },
+  { icon: Dribbble, href: 'https://Dribbble.com/BenamriAgency', label: 'Dribbble' },
   { icon: Github, href: 'https://github.com', label: 'GitHub' },
   { icon: Linkedin, href: 'https://linkedin.com', label: 'LinkedIn' },
 ];
