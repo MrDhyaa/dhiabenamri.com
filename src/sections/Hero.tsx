@@ -76,7 +76,7 @@ export default function Hero() {
   transition={{ delay: 0.1, duration: 0.6 }}
   className="mt-4 text-sm font-medium tracking-[0.18em] text-ink-400"
 >
-  Anouar Dia'a E. Benlamri
+  Anouar Dia'a Eddine
 </motion.p>
 
 {/* Brand Name */}
@@ -86,9 +86,7 @@ export default function Hero() {
   transition={{ delay: 0.15, duration: 0.6 }}
   className="mt-2 whitespace-nowrap font-display text-[clamp(2.5rem,9vw,5.5rem)] font-extrabold leading-none tracking-tight"
 >
-  <span className="gradient-text">
-    Mr<span className="text-electric-400">DY</span>AN
-  </span>
+  <span className="text-white">Mr. DYAN</span>
 </motion.h1>
 
         {/* roles — icon-prefixed, translated, separators kept */}
