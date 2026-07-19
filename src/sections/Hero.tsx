@@ -94,7 +94,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.25, duration: 0.6 }}
-className="mt-3 flex items-center justify-center gap-x-2 whitespace-nowrap text-[10px] font-medium uppercase tracking-[0.08em] text-ink-200 sm:gap-x-3 sm:text-sm sm:tracking-[0.2em]"
+className="mt-3 flex items-center justify-center gap-x-2 whitespace-nowrap text-[10px] font-medium uppercase tracking-[0.04em] text-ink-200 sm:gap-x-3 sm:text-sm sm:tracking-[0.12em]"
           >
           {professions.map((p, i) => (
             <span key={p.key} className="flex items-center gap-3">
