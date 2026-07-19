@@ -8,32 +8,16 @@
     "services": "Services",
     "contact": "Contact",
     "faq": "FAQ",
-11 |      "hireMe": "Hire Me",
-12 |      },
-   |     ^
-13 |    
-14 |       "hero": {
-
+    "hireMe": "Hire Me"
+  },
+  "hero": {
     "name": "Anouar Dia'a Eddine",
-
-    "roles": "Designer · Developer · Founder",
-
-    "profession1": "Designer",
-
-    "profession2": "Developer",
-
-    "profession3": "Founder",
-
-    "scrollText": "Scroll to explore",
-
+    "roles": "Graphic Designer · Web Developer · Founder",
     "bio": "I craft brands, websites, and digital experiences for ambitious companies. Founder of a creative studio where design meets engineering — building work that feels inevitable, premium, and unmistakably yours.",
-
     "cta": "Hire Me",
-
     "ctaSecondary": "View Portfolio",
-
     "ctaContact": "Contact"
-   },
+  },
   "home": {
     "featuredTitle": "Selected work, built to be remembered",
     "featuredEyebrow": "Portfolio",
