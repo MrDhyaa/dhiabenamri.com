@@ -9,6 +9,9 @@ import {
   Twitter,
   ArrowUpRight,
   Mail,
+  Palette,
+  Code2,
+  Rocket,
 } from 'lucide-react';
 import MagneticButton from '../components/MagneticButton';
 
@@ -18,6 +21,12 @@ const socials = [
   { Icon: Twitter, href: 'https://x.com', label: 'X / Twitter' },
   { Icon: Instagram, href: 'https://instagram.com', label: 'Instagram' },
   { Icon: Facebook, href: 'https://facebook.com', label: 'Facebook' },
+];
+
+const professions = [
+  { Icon: Palette, key: 'profession1' },
+  { Icon: Code2, key: 'profession2' },
+  { Icon: Rocket, key: 'profession3' },
 ];
 
 export default function Hero() {
@@ -70,15 +79,27 @@ export default function Hero() {
           <span className="gradient-text">MrDYAN</span>
         </motion.h1>
 
-        {/* roles */}
-        <motion.p
+        {/* roles — icon-prefixed, translated, separators kept */}
+        <motion.div
           initial={{ opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.25, duration: 0.6 }}
-          className="mt-3 text-xs font-medium uppercase tracking-[0.25em] text-ink-200 sm:text-sm"
+          className="mt-3 flex flex-wrap items-center justify-center gap-x-3 gap-y-1.5 text-xs font-medium uppercase tracking-[0.2em] text-ink-200 sm:text-sm"
         >
-          {t('hero.roles')}
-        </motion.p>
+          {professions.map((p, i) => (
+            <span key={p.key} className="flex items-center gap-3">
+              <span className="flex items-center gap-2">
+                <p.Icon size={14} className="text-electric-300" strokeWidth={2} />
+                {t(`hero.${p.key}`)}
+              </span>
+              {i < professions.length - 1 && (
+                <span className="text-ink-500" aria-hidden="true">
+                  ·
+                </span>
+              )}
+            </span>
+          ))}
+        </motion.div>
 
         {/* bio */}
         <motion.p
@@ -129,15 +150,22 @@ export default function Hero() {
           </MagneticButton>
         </motion.div>
 
-        {/* scroll hint */}
+        {/* scroll hint — elegant floating mouse with soft glow */}
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1, duration: 0.6 }}
-          className="mt-10 flex items-center gap-2 text-xs text-ink-400"
+          className="scroll-indicator mt-10 flex flex-col items-center gap-3"
         >
-          <Link to="/about" className="transition-colors hover:text-ink-200">
-            Scroll to explore
+          <div className="relative">
+            <div className="absolute -inset-3 rounded-full bg-electric-500/20 blur-xl animate-pulse-glow" />
+            <div className="scroll-indicator__mouse relative flex h-8 w-5 items-start justify-center rounded-full border-2 border-ink-300/60 bg-white/[0.02] backdrop-blur-sm" />
+          </div>
+          <Link
+            to="/about"
+            className="text-[11px] font-medium uppercase tracking-[0.22em] text-ink-400 transition-colors hover:text-ink-200"
+          >
+            {t('hero.scrollText')}
           </Link>
         </motion.div>
       </div>

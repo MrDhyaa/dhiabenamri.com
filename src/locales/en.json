@@ -13,6 +13,10 @@
   "hero": {
     "name": "Anouar Dia'a Eddine",
     "roles": "Graphic Designer · Web Developer · Founder",
+    "profession1": "Graphic Designer",
+    "profession2": "Web Developer",
+    "profession3": "Founder",
+    "scrollText": "Scroll to explore",
     "bio": "I craft brands, websites, and digital experiences for ambitious companies. Founder of a creative studio where design meets engineering — building work that feels inevitable, premium, and unmistakably yours.",
     "cta": "Hire Me",
     "ctaSecondary": "View Portfolio",

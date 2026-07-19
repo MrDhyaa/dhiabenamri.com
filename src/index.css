@@ -109,7 +109,7 @@
 
 /* RTL: text-only mirroring. Layout, icons, logos and decorative elements stay in place. */
 html.lang-ar body {
-  font-family: 'IBM Plex Sans Arabic', Inter, ui-sans-serif, system-ui, sans-serif;
+  font-family: 'Cairo', 'IBM Plex Sans Arabic', Inter, ui-sans-serif, system-ui, sans-serif;
 }
 
 html.lang-ar h1,
@@ -141,4 +141,29 @@ html.lang-ar [class*='items-center'] p {
 /* Keep flex rows visually identical — do NOT reverse icon order */
 html.lang-ar .lucide {
   transform: none;
+}
+
+/* Scroll indicator: elegant floating mouse with soft glow */
+@keyframes scroll-hint-float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(6px); }
+}
+@keyframes scroll-hint-wheel {
+  0% { transform: translateY(0); opacity: 1; }
+  100% { transform: translateY(10px); opacity: 0; }
+}
+.scroll-indicator {
+  animation: scroll-hint-float 2.4s ease-in-out infinite;
+}
+.scroll-indicator__mouse::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 7px;
+  width: 3px;
+  height: 7px;
+  border-radius: 9999px;
+  background: rgb(147 197 253);
+  transform: translateX(-50%);
+  animation: scroll-hint-wheel 1.6s ease-in-out infinite;
 }
