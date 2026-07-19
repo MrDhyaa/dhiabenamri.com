@@ -66,7 +66,7 @@ export default function Footer() {
 
           <div className="mt-10 flex flex-col items-center justify-between gap-3 border-t border-white/[0.04] pt-6 text-center sm:flex-row sm:text-start">
             <p className="text-xs text-ink-400">
-              © {new Date().getFullYear()} MrDYAN. {t('footer.rights')}
+              © {new Date().getFullYear()} A. DIA'a E. Benlamri. {t('footer.rights')}
             </p>
             <p className="text-xs text-ink-400">{t('footer.madeWith')}</p>
             <a
