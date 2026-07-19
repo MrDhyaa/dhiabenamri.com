@@ -9,6 +9,8 @@
     "contact": "Contact",
     "faq": "FAQ",
     "hireMe": "Hire Me",
+    },
+  
      "hero": {
 
     "name": "Anouar Dia'a Eddine",
@@ -29,8 +31,8 @@
 
     "ctaSecondary": "View Portfolio",
 
-    "ctaContact": "Contact",
-   }
+    "ctaContact": "Contact"
+   },
   "home": {
     "featuredTitle": "Selected work, built to be remembered",
     "featuredEyebrow": "Portfolio",
