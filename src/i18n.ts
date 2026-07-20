@@ -30,8 +30,11 @@ i18n.use(initReactI18next).init({
 
 const applyLang = (lng: string) => {
   if (typeof document === 'undefined') return;
+
   document.documentElement.lang = lng;
+  document.documentElement.dir = lng === 'ar' ? 'rtl' : 'ltr';
   document.documentElement.dataset.lang = lng;
+
   document.documentElement.classList.toggle('lang-ar', lng === 'ar');
   document.documentElement.classList.toggle('lang-fr', lng === 'fr');
 };
