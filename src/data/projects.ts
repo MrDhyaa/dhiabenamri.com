@@ -21,7 +21,7 @@ export const projects: Project[] = [
     description:
       'A next-generation banking dashboard with real-time insights, animated charts, and a calm, focused interface.',
     image:
-     <a href="https://ibb.co/gLfG95sq"><img src="https://i.ibb.co/PvPRj7BX/Whats-App-Image-2026-07-20-at-21-24-10.jpg" alt="Whats-App-Image-2026-07-20-at-21-24-10" border="0"></a><br /><a target='_blank' href='https://freeonlinedice.com/'>dice roller with custom sides</a><br />,
+     '<a href="https://ibb.co/gLfG95sq"><img src="https://i.ibb.co/PvPRj7BX/Whats-App-Image-2026-07-20-at-21-24-10.jpg" alt="Whats-App-Image-2026-07-20-at-21-24-10" border="0"></a><br /><a target='_blank' href='https://freeonlinedice.com/'>dice roller with custom sides</a><br />',
     link: 'https://www.instagram.com/chahinazkhider',
     year: 'January, 2025',
     client: 'Chahinaz Khider',
