@@ -174,3 +174,18 @@ html.lang-ar body {
   transform: translateX(-50%);
   animation: scroll-hint-wheel 1.6s ease-in-out infinite;
 }
+/* RTL form improvements */
+html.lang-ar input,
+html.lang-ar textarea,
+html.lang-ar select {
+  text-align: right;
+}
+
+html.lang-ar ::placeholder {
+  text-align: right;
+}
+
+html.lang-ar input,
+html.lang-ar textarea {
+  caret-color: white;
+}
