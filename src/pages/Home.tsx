@@ -17,9 +17,9 @@ export default function Home() {
       <Hero />
 
       {/* Featured work preview */}
-     <section className="section-pad relative py-20 sm:py-28 rtl">
+      <section className="section-pad relative py-20 sm:py-28">
         <div className="container-wide">
-          <div className="flex flex-col items-start justify-between gap-6 rtl:items-end sm:flex-row sm:items-end">
+          <div className="flex flex-col items-start justify-between gap-6 sm:flex-row sm:items-end">
             <SectionHeading
               align="left"
               eyebrow={t('home.featuredEyebrow')}
@@ -36,8 +36,8 @@ export default function Home() {
             </Reveal>
           </div>
 
-<div className="mt-12 grid gap-6 md:grid-cols-2">
-  {featured.map((p, i) => (
+          <div className="mt-12 grid gap-6 md:grid-cols-2">
+            {featured.map((p, i) => (
               <Reveal key={p.slug} delay={(i % 2) * 0.08}>
                 <Link to={`/portfolio/${p.slug}`} className="group block">
                   <motion.article
