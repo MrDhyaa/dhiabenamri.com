@@ -22,12 +22,12 @@ export const projects: Project[] = [
       'A next-generation banking dashboard with real-time insights, animated charts, and a calm, focused interface.',
     image:
      'https://res.cloudinary.com/jibstacy/image/upload/v1784579988/WhatsApp_Image_2026-07-20_at_21.24.10_fatcfh.jpg',
-    link: 'https://www.instagram.com/chahinazkhider',
+    link: 'https://www.coollibri.com/bibliotheque-en-ligne/magazine-shahinaz/shahinaz-magazine_1116155',
     year: 'January, 2025',
     client: 'Chahinaz Khider',
     role: 'Algerian Influencess and TV host',
     gallery: [
-      'https://images.pexels.com/photos/8438922/pexels-photo-8438922.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+      'https://res.cloudinary.com/jibstacy/image/upload/v1784579988/WhatsApp_Image_2026-07-20_at_21.24.10_fatcfh.jpg',
     ],
   },
   {
