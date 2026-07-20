@@ -36,7 +36,7 @@ export default function Home() {
             </Reveal>
           </div>
 
-<div className="mt-12 grid grid-cols-2 gap-4">
+<div className="mt-12 grid gap-6 md:grid-cols-2">
   {featured.map((p, i) => (
               <Reveal key={p.slug} delay={(i % 2) * 0.08}>
                 <Link to={`/portfolio/${p.slug}`} className="group block">
