@@ -82,12 +82,12 @@ export default function Hero() {
   className="mt-2 whitespace-nowrap font-display text-[clamp(2.5rem,9vw,5.5rem)] font-extrabold leading-none tracking-tight text-zinc-100"
 >
   Mr. DIA'A
-<motion.div
+</motion.h1>
   initial={{ opacity: 0, y: 16 }}
   animate={{ opacity: 1, y: 0 }}
   transition={{ delay: 0.25, duration: 0.6 }}
   className="mt-3 flex items-center justify-center gap-2 text-[10px] font-medium uppercase tracking-[0.04em] text-ink-200 sm:text-sm sm:tracking-[0.12em]"
-  </motion.h1>
+
 >
   <Palette size={14} className="text-electric-300" strokeWidth={2} />
   <span>{t('hero.roles')}</span>
