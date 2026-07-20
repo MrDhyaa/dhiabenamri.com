@@ -19,7 +19,7 @@ export default function Home() {
       {/* Featured work preview */}
       <section className="section-pad relative py-20 sm:py-28">
         <div className="container-wide">
-          <div className="flex flex-col items-start justify-between gap-6 sm:flex-row sm:items-end">
+          <div className="flex flex-col items-start justify-between gap-6 rtl:items-end sm:flex-row sm:items-end">
             <SectionHeading
               align="left"
               eyebrow={t('home.featuredEyebrow')}
