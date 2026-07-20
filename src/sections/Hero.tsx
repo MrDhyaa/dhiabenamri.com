@@ -87,6 +87,7 @@ export default function Hero() {
   animate={{ opacity: 1, y: 0 }}
   transition={{ delay: 0.25, duration: 0.6 }}
   className="mt-3 flex items-center justify-center gap-2 text-[10px] font-medium uppercase tracking-[0.04em] text-ink-200 sm:text-sm sm:tracking-[0.12em]"
+  </motion.h1>
 >
   <Palette size={14} className="text-electric-300" strokeWidth={2} />
   <span>{t('hero.roles')}</span>
