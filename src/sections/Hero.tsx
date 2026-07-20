@@ -1,6 +1,3 @@
-import { motion } from 'framer-motion';
-import { useTranslation } from 'react-i18next';
-import { Link } from 'react-router-dom';
 import {
   Github,
   Linkedin,
@@ -10,6 +7,8 @@ import {
   ArrowUpRight,
   Mail,
   Palette,
+  Code2,
+  Rocket,
 } from 'lucide-react';
 import MagneticButton from '../components/MagneticButton';
 
@@ -19,6 +18,11 @@ const socials = [
   { Icon: Twitter, href: 'https://x.com/MrDhyaa', label: 'X / Twitter' },
   { Icon: Instagram, href: 'https://instagram.com/benlamri_91', label: 'Instagram' },
   { Icon: Facebook, href: 'https://facebook.com/MrDhyaa', label: 'Facebook' },
+];
+const professions = [
+  { Icon: Palette, key: 'profession1' },
+  { Icon: Code2, key: 'profession2' },
+  { Icon: Rocket, key: 'profession3' },
 ];
 
 export default function Hero() {
@@ -81,20 +85,29 @@ export default function Hero() {
           Mr. DIA'A
         </motion.h1>
 
-        {/* Roles */}
-        <motion.div
-          initial={{ opacity: 0, y: 16 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.25, duration: 0.6 }}
-          className="mt-3 flex items-center justify-center gap-2 text-[10px] font-medium uppercase tracking-[0.04em] text-ink-200 sm:text-sm sm:tracking-[0.12em]"
-        >
-          <Palette
-            size={14}
-            className="text-electric-300"
-            strokeWidth={2}
-          />
-          <span>{t('hero.roles')}</span>
-        </motion.div>
+       {/* Roles */}
+<motion.div
+  initial={{ opacity: 0, y: 16 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ delay: 0.25, duration: 0.6 }}
+  className="mt-3 flex items-center justify-center gap-x-2 whitespace-nowrap text-[10px] font-medium uppercase tracking-[0.04em] text-ink-200 sm:gap-x-3 sm:text-sm sm:tracking-[0.12em]"
+>
+  {professions.map((p, i) => (
+    <span key={p.key} className="flex items-center gap-2">
+      <p.Icon
+        size={14}
+        className="text-electric-300"
+        strokeWidth={2}
+      />
+
+      <span>{t(`hero.${p.key}`)}</span>
+
+      {i < professions.length - 1 && (
+        <span className="text-ink-500">·</span>
+      )}
+    </span>
+  ))}
+</motion.div>
 
         {/* Bio */}
         <motion.p
