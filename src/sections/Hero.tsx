@@ -23,11 +23,6 @@ const socials = [
   { Icon: Facebook, href: 'https://facebook.com/MrDhyaa', label: 'Facebook' },
 ];
 
-const professions = [
-  { Icon: Palette, key: 'profession1' },
-  { Icon: Code2, key: 'profession2' },
-  { Icon: Rocket, key: 'profession3' },
-];
 
 export default function Hero() {
   const { t } = useTranslation();
@@ -76,7 +71,7 @@ export default function Hero() {
   transition={{ delay: 0.1, duration: 0.6 }}
   className="mt-4 text-sm font-medium tracking-[0.18em] text-ink-400"
 >
-  {t('hero.name')}
+{t('hero.fullName')}
 </motion.p>
 
 {/* Brand Name */}
@@ -87,29 +82,15 @@ export default function Hero() {
   className="mt-2 whitespace-nowrap font-display text-[clamp(2.5rem,9vw,5.5rem)] font-extrabold leading-none tracking-tight text-zinc-100"
 >
   Mr. DIA'A
-</motion.h1>
-
-        {/* roles — icon-prefixed, translated, separators kept */}
-        <motion.div
-          initial={{ opacity: 0, y: 16 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.25, duration: 0.6 }}
-className="mt-3 flex items-center justify-center gap-x-2 whitespace-nowrap text-[10px] font-medium uppercase tracking-[0.04em] text-ink-200 sm:gap-x-3 sm:text-sm sm:tracking-[0.12em]"
-          >
-          {professions.map((p, i) => (
-            <span key={p.key} className="flex items-center gap-3">
-              <span className="flex items-center gap-2">
-                <p.Icon size={14} className="text-electric-300" strokeWidth={2} />
-                {t(`hero.${p.key}`)}
-              </span>
-              {i < professions.length - 1 && (
-                <span className="text-ink-500" aria-hidden="true">
-                  ·
-                </span>
-              )}
-            </span>
-          ))}
-        </motion.div>
+<motion.div
+  initial={{ opacity: 0, y: 16 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ delay: 0.25, duration: 0.6 }}
+  className="mt-3 flex items-center justify-center gap-2 text-[10px] font-medium uppercase tracking-[0.04em] text-ink-200 sm:text-sm sm:tracking-[0.12em]"
+>
+  <Palette size={14} className="text-electric-300" strokeWidth={2} />
+  <span>{t('hero.roles')}</span>
+</motion.div>
 
         {/* bio */}
         <motion.p
