@@ -1,6 +1,3 @@
-import { motion } from 'framer-motion';
-import { useTranslation } from 'react-i18next';
-import { Link } from 'react-router-dom';
 import {
   Github,
   Linkedin,
@@ -10,8 +7,6 @@ import {
   ArrowUpRight,
   Mail,
   Palette,
-  Code2,
-  Rocket,
 } from 'lucide-react';
 import MagneticButton from '../components/MagneticButton';
 
