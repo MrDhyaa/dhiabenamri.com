@@ -14,6 +14,14 @@
     text-rendering: optimizeLegibility;
   }
 
+  html[dir='rtl'] {
+  direction: rtl;
+}
+
+html[dir='ltr'] {
+  direction: ltr;
+}
+
   body {
     @apply bg-ink-950 text-ink-100 font-sans antialiased;
     background-image:
