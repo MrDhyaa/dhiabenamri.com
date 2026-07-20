@@ -11,6 +11,9 @@ import {
   Rocket,
 } from 'lucide-react';
 import MagneticButton from '../components/MagneticButton';
+import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 
 const socials = [
   { Icon: Github, href: 'https://github.com', label: 'GitHub' },
