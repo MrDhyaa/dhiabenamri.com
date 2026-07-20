@@ -21,7 +21,7 @@ export const projects: Project[] = [
     description:
       'A next-generation banking dashboard with real-time insights, animated charts, and a calm, focused interface.',
     image:
-     'https://ibb.co/gLfG95sq',
+     'https://res.cloudinary.com/jibstacy/image/upload/v1784579988/WhatsApp_Image_2026-07-20_at_21.24.10_fatcfh.jpg',
     link: 'https://www.instagram.com/chahinazkhider',
     year: 'January, 2025',
     client: 'Chahinaz Khider',
