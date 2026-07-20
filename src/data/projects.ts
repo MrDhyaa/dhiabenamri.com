@@ -21,11 +21,11 @@ export const projects: Project[] = [
     description:
       'A next-generation banking dashboard with real-time insights, animated charts, and a calm, focused interface.',
     image:
-      'https://images.pexels.com/photos/8438922/pexels-photo-8438922.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    link: '#',
-    year: '2024',
-    client: 'Aether Financial',
-    role: 'Lead Designer & Developer',
+      'https://mrkzgulfup.com/uploads/178457908966051.jpeg',
+    link: 'https://www.instagram.com/chahinazkhider',
+    year: 'January, 2025',
+    client: 'Chahinaz Khider',
+    role: 'Algerian Influencess and TV host',
     gallery: [
       'https://images.pexels.com/photos/8438922/pexels-photo-8438922.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     ],
