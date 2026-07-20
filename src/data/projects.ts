@@ -14,8 +14,8 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    slug: 'aether-banking',
-    title: 'Aether Banking',
+    slug: 'Chahinaz Khider',
+    title: 'Shahinaz Magazine',
     category: 'UI/UX Design',
     tags: ['Figma', 'React', 'TypeScript'],
     description:
