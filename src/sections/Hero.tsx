@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
+
 import {
   Github,
   Linkedin,
@@ -13,14 +14,16 @@ import {
   Code2,
   Rocket,
 } from 'lucide-react';
+
 import MagneticButton from '../components/MagneticButton';
 
 const socials = [
-  { Icon: Github, href: 'https://github.com', label: 'GitHub' },
+  { Icon: Github, href: 'https://github.com/mrdhyaa', label: 'GitHub' },
   { Icon: Linkedin, href: 'https://linkedin.com', label: 'LinkedIn' },
   { Icon: Twitter, href: 'https://x.com/MrDhyaa', label: 'X / Twitter' },
   { Icon: Instagram, href: 'https://instagram.com/benlamri_91', label: 'Instagram' },
   { Icon: Facebook, href: 'https://facebook.com/MrDhyaa', label: 'Facebook' },
+ 
 ];
 
 const professions = [
@@ -69,14 +72,14 @@ export default function Hero() {
           </motion.div>
         </motion.div>
 
-       {/* Full Name */}
+     {/* Full Name */}
 <motion.p
   initial={{ opacity: 0, y: 10 }}
   animate={{ opacity: 1, y: 0 }}
   transition={{ delay: 0.1, duration: 0.6 }}
   className="mt-4 text-sm font-medium tracking-[0.18em] text-ink-400"
 >
-  {t('hero.name')}
+  {t('hero.fullName')}
 </motion.p>
 
 {/* Brand Name */}
@@ -86,7 +89,7 @@ export default function Hero() {
   transition={{ delay: 0.15, duration: 0.6 }}
   className="mt-2 whitespace-nowrap font-display text-[clamp(2.5rem,9vw,5.5rem)] font-extrabold leading-none tracking-tight text-zinc-100"
 >
-  Mr. DIA'A
+  Mr. DIA'A Ed.
 </motion.h1>
 
         {/* roles — icon-prefixed, translated, separators kept */}

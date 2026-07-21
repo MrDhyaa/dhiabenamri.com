@@ -13,40 +13,36 @@ export interface Project {
 }
 
 export const projects: Project[] = [
+ {
+  slug: 'hps71',
+  title: 'HPS71 — Plomberie, Chauffage & Climatisation',
+  category: 'Web Development',
+  tags: ['React', 'TypeScript', 'Vite', 'Tailwind CSS'],
+  description:
+    'Design and development of a modern, responsive website for a professional company specializing in plumbing, heating, and air conditioning services.',
+  image: '/images/hps71.fr.png',
+  link: 'https://hps71.fr',
+  year: '2026',
+  client: 'HPS71',
+  role: 'Web Design & Front-End Development',
+  gallery: ['/images/hps71.fr.png'],
+},
   {
-    slug: 'Chahinaz Khider',
-    title: 'Shahinaz Magazine',
-    category: 'UI/UX Design',
-    tags: ['Figma', 'React', 'TypeScript'],
-    description:
-      'A next-generation banking dashboard with real-time insights, animated charts, and a calm, focused interface.',
-    image:
-     'https://res.cloudinary.com/jibstacy/image/upload/v1784579988/WhatsApp_Image_2026-07-20_at_21.24.10_fatcfh.jpg',
-    link: 'https://www.coollibri.com/bibliotheque-en-ligne/magazine-shahinaz/shahinaz-magazine_1116155',
-    year: 'January, 2025',
-    client: 'Chahinaz Khider',
-    role: 'Algerian Influencess and TV host',
-    gallery: [
-      'https://res.cloudinary.com/jibstacy/image/upload/v1784579988/WhatsApp_Image_2026-07-20_at_21.24.10_fatcfh.jpg',
-    ],
-  },
-  {
-    slug: 'nova-cosmetics',
-    title: 'Nova Cosmetics',
-    category: 'Brand Identity',
-    tags: ['Illustrator', 'Photoshop'],
-    description:
-      'Full brand identity for a clean-beauty startup — logo, packaging, and a tactile print system.',
-    image:
-      'https://images.pexels.com/photos/4465124/pexels-photo-4465124.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    link: '#',
-    year: '2024',
-    client: 'Nova Cosmetics',
-    role: 'Brand Designer',
-    gallery: [
-      'https://images.pexels.com/photos/4465124/pexels-photo-4465124.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    ],
-  },
+  slug: 'shahinaz-magazine',
+  title: 'Shahinaz Magazine',
+  category: 'Editorial Design',
+  tags: ['Editorial Design', 'Content Writing', 'Layout Design'],
+  description:
+    'A complete magazine project designed from concept to final publication, covering content, editorial structure, layout, typography, and visual direction.',
+  image: '/images/shahinaz-magazine.png',
+  link: 'https://www.coollibri.com/bibliotheque-en-ligne/magazine-shahinaz/shahinaz-magazine_1116155',
+  year: '2025',
+  client: 'Chahinaz Khider',
+  role: 'Editorial Designer & Content Writer',
+  gallery: [
+    '/images/shahinaz-magazine.png',
+  ],
+},
   {
     slug: 'helix-studio',
     title: 'Helix Studio',
