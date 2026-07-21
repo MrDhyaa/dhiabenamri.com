@@ -91,7 +91,7 @@ export default function Hero() {
   className="mt-2 whitespace-nowrap font-display text-[clamp(2.5rem,9vw,5.5rem)] font-extrabold leading-none tracking-tight text-zinc-100"
 >
   Mr. DIA'A Ed.
-</motion.h1>
+</motion.h1> 
 
         {/* roles — icon-prefixed, translated, separators kept */}
         <motion.div
