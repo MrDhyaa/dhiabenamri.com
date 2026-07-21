@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
+import { SiMedium } from 'react-icons/si';
 
 import {
   Github,
@@ -23,9 +24,14 @@ const socials = [
   { Icon: Twitter, href: 'https://x.com/MrDhyaa', label: 'X / Twitter' },
   { Icon: Instagram, href: 'https://instagram.com/benlamri_91', label: 'Instagram' },
   { Icon: Facebook, href: 'https://facebook.com/MrDhyaa', label: 'Facebook' },
- 
+  {
+  Icon: SiMedium,
+  href: 'https://medium.com/@MrDhyaa',
+  label: 'Medium',
+},
+  
 ];
-
+ 
 const professions = [
   { Icon: Palette, key: 'profession1' },
   { Icon: Code2, key: 'profession2' },
