@@ -9,6 +9,7 @@ import {
   Instagram,
   Facebook,
   Twitter,
+  PenLine,
   ArrowUpRight,
   Mail,
   Palette,
@@ -25,9 +26,9 @@ const socials = [
   { Icon: Instagram, href: 'https://instagram.com/benlamri_91', label: 'Instagram' },
   { Icon: Facebook, href: 'https://facebook.com/MrDhyaa', label: 'Facebook' },
   {
-  Icon: SiMedium,
+  Icon: PenLine,
   href: 'https://medium.com/@MrDhyaa',
-  label: 'Medium',
+  label: 'My Articles',
 },
   
 ];
