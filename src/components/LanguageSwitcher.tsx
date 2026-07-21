@@ -2,7 +2,7 @@ import { useTranslation } from 'react-i18next';
 import { useEffect, useRef, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Globe, ChevronDown, Check } from 'lucide-react';
-import { SUPPORTED_LANGS, type Lang } from '../i18n';
+import { type Lang } from '../i18n';
 
 interface LangMeta {
   code: Lang;

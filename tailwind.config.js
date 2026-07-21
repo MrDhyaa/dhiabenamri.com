@@ -37,6 +37,10 @@ export default {
           400: '#22D3EE',
           500: '#06B6D4',
         },
+        crimson: {
+          400: '#f87171',
+          500: '#ef4444',
+        },
       },
       fontFamily: {
         sans: ['Inter', '"IBM Plex Sans Arabic"', 'ui-sans-serif', 'system-ui', 'sans-serif'],
